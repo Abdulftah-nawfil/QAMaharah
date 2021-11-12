@@ -2,15 +2,22 @@
 
 Simple Counter App in Flutter with unit, widget and integration tests
 
+- A unit test tests a single function, method, or class.
+- A widget test (in other UI frameworks referred to as component test) tests a single widget.
+- An integration test tests a complete app or a large part of an app.
+
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Run unit tests:
+```
+flutter test test/unit_test.dart
+```
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Run widget tests:
+```
+flutter test test/widget_test.dart
+```
+Run integration tests:
+```
+flutter test integration_test/integration_test.dart
+```

@@ -11,11 +11,22 @@ class CounterDisplay extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          const Text('Contagem:'),
+          const Padding(
+            padding: EdgeInsets.only(bottom: 22),
+            child: Text(
+              'CONTAGEM',
+              style: TextStyle(
+                fontSize: 18,
+                fontWeight: FontWeight.w500,
+                color: Colors.black54,
+                letterSpacing: 1.5,
+              ),
+            ),
+          ),
           Text(
             '$number',
             style: TextStyle(
-              fontSize: 36,
+              fontSize: 80,
               color: setColor(),
             ),
           ),

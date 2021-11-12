@@ -11,7 +11,7 @@ main() {
       ),
     );
 
-    expect(find.text('Contagem:'), findsOneWidget);
+    expect(find.text('CONTAGEM'), findsOneWidget);
     expect(find.text('5'), findsOneWidget);
   });
 
