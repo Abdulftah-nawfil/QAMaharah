@@ -14,7 +14,7 @@ class CounterDisplay extends StatelessWidget {
           const Padding(
             padding: EdgeInsets.only(bottom: 22),
             child: Text(
-              'CONTAGEM',
+              'Counter',
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.w500,

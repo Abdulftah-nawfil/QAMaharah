@@ -17,7 +17,3 @@ Run widget tests:
 ```
 flutter test test/widget_test.dart
 ```
-Run integration tests:
-```
-flutter test integration_test/integration_test.dart
-```

@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.deepPurple,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: const Home(title: 'Contador'),
+      home: const Home(title: 'Maharah School'),
     );
   }
 }
